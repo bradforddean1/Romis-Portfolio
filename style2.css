@@ -1,0 +1,28 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-size: 10px;
+    font-family: Neuzeit Grotesk; sans-serif;
+    color: #000000;
+    position: relative;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+.main-nav ul {
+  display: grid;
+  grid-gap: 20px;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: repeat(12, 1fr);
+}

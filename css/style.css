@@ -1,4 +1,293 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html {
+  height: 100%;
+  background-color: #E0E0E0;
+}
 body {
-  background-color: #dadada;
-  font-size: 10px;
+    background-color: white;
+    font-size: 10px;
+    font-family: Neuzeit Grotesk; sans-serif;
+    color: #000000;
+
+    max-width: 1152px;
+    min-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+/* --------Navigation------------ */
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  
+}
+.menu-container ul {
+  background-color: white;
+  display: grid;
+  grid-gap: 20px;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
+}
+
+.menu-container a {
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: #4F4F4F;
+  text-transform: ;
+  font-size: 1.1rem;
+}
+.menu-container a:hover {
+  color: #41A76E;
+}
+
+#logo{
+  font-size: 3.5rem;
+  font-weight:600;
+  color: #000000;
+  text-decoration: none;
+}
+.projects{
+  grid-column: 3/4;
+}
+.contact{
+  grid-column:  4/5;
+}
+.linkedin{
+  grid-column: 5/6;
+}
+
+/* HOME PAGE */
+
+.homepage-main {
+  margin-top: 81.59px;
+  margin-left: 33.506944%;
+  margin-right: 33.506944%;
+}
+
+h1 {
+    font-family: Neuzeit Grotesk;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8em;
+    line-height: 58px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  article{
+      font-size: 0.8em;
+  }
+
+.lyly{
+    object-position: center;
+    width: 466px;
+    position: absolute;
+}
+
+.circle {
+    width: 247px;
+    height: 247px;
+    background: #C0E2CA;
+    opacity: 0.5;
+    margin: 0;
+    border-radius: 50%;
+    position:relative;
+    top: 250px;
+    right: -40%;
+
+}
+
+
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.6em;
+    line-height: 29px;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6em;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*contact*/
+
+.sayhi {
+    width:273px;
+    height: 158px;
+    margin: 0 auto;
+    position:relative;
+    top: 100px;
+    right: -20%;
+}
+
+.profile{
+    margin: 15px;
+    max-width: 77px;
+}
+
+.lefthand{
+    max-width: 45px;
+    margin-left: 32px;
+}
+
+.righthand{
+    max-width: 45px;
+    margin-right: 32px;
+}
+
+.emailsec {
+    max-width: 371px;
+    max-height: 157px;
+    margin: 0 auto;
+
+
+}
+
+.circle2 {
+    width: 157px;
+    height: 157px;
+    background: #C0E2CA;
+    opacity: 0.5;
+    margin: 0;
+    border-radius: 50%;
+    position:relative;
+    top: 120px;
+    right: -20%;
+    z-index: 0;
+
+  }
+#name{
+    font-family: Neuzeit Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+    width: 167px;
+    height: 19px;
+  }
+
+#email{
+    font-family: Neuzeit Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    width: 371px;
+    height: 19px;
+
+}
+
+/* project page*/
+
+.project-main{
+  margin-left: 9.6%;
+  margin-right: 9.6%;
+
+  display: grid;
+  grid-template-columns: repeat (5, 1fr);
+  grid-column-gap:20px;
+  grid-template-rows: 140px 140px 140px 140px 140px;
+  grid-row-gap: 1px;
+
+}
+/*  Meerkat */
+
+.colab{
+  grid-column: 2/3;
+  grid-row: 2/5;
+}
+
+.meerkat{
+    max-width: 167px;
+
+}
+ .peasinheart{
+   grid-column: 4/6;
+   grid-row: 4/5;
+ }
+.peas{
+    height: 133.93px;
+}
+
+.projectname{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.caption{
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    /* Gray 3 */
+
+    background: #828282;
+}
+
+.footer {
+
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #41A76E;
+   text-align: center;
+   font-size: .6em;
+   font-style: normal;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 0.1em;
 }
